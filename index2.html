@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="content">
+    <div class="contenedor">
+   
+       <input type="number"class="input"  id="edad"><br>
+       <label class="span" for="">Ingresa tu edad</label>
+      
+       <br><br>
+       
+       <select class="selector" name="planeta" id="planeta" >
+         
+           <option value="Mercurio">Mercurio</option>
+           <option value="Venus">Venus</option>
+           <option value="Tierra">Tierra</option>
+           <option value="Marte">Marte</option>
+           <option value="Jupiter">Jupiter</option>
+           <option value="Saturno">Saturno</option>
+           <option value="Urano">Urano</option>
+           <option value="Neptuno">Neptuno</option>
+
+       </select><br>
+       <span class="span">Elige tu planeta Favorito</span><br><br>
+       <button onclick="calcular(edad,planeta)">Enviar</button>
+       
+       <div class="result" id="resultado">
+       
+    </div>
+    
+</div>
+</div>
+    <script src="script2.js"></script>
+</body>
+</html>
